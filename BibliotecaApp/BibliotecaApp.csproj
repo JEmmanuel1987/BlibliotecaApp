@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>BibliotecaApp</AssemblyName>
+    <RootNamespace>BibliotecaApp</RootNamespace>
+  </PropertyGroup>
+
+  <!-- ── Paquetes NuGet necesarios ───────────────────────────────────────── -->
+  <ItemGroup>
+    <!-- Entity Framework Core + SQL Server -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore"              Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer"    Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools"        Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design"       Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
+
